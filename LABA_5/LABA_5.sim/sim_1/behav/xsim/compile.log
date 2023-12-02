@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/97ras/Documents/Vivado/LABA_5/Unit/miriscv_lsu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module miriscv_lsu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/97ras/Documents/Vivado/LABA_5/Files/alu_opcodes_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/97ras/Documents/Vivado/LABA_5/Core/alu_riscv.sv" into library xil_defaultlib
+WARNING: [VRFC 10-8896] design element 'alu_opcodes_pkg' is previously defined; ignoring this definition [C:/Users/97ras/Documents/Vivado/LABA_5/Files/alu_opcodes_pkg.sv:1]
+INFO: [VRFC 10-311] analyzing module alu_riscv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/97ras/Documents/Vivado/LABA_5/Core/Decoder.sv" into library xil_defaultlib
+WARNING: [VRFC 10-8896] design element 'riscv_pkg' is previously defined; ignoring this definition [C:/Users/97ras/Documents/Vivado/LABA_5/Files/riscv_pkg.sv:1]
+INFO: [VRFC 10-311] analyzing module decoder_riscv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/97ras/Documents/Vivado/LABA_5/Files/miriscv_ram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module miriscv_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/97ras/Documents/Vivado/LABA_5/Files/miriscv_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module miriscv_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/97ras/Documents/Vivado/LABA_5/Core/rf_riscv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rf_riscv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/97ras/Documents/Vivado/LABA_5/Core/riscv_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module miriscv_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/97ras/Documents/Vivado/LABA_5/Files/tb_miriscv_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_miriscv_top

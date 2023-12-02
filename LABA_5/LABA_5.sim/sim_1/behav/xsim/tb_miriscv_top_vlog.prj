@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Unit/miriscv_lsu.sv" \
+"../../../../Files/alu_opcodes_pkg.sv" \
+"../../../../Core/alu_riscv.sv" \
+"../../../../Core/Decoder.sv" \
+"../../../../Files/miriscv_ram.sv" \
+"../../../../Files/miriscv_top.sv" \
+"../../../../Core/rf_riscv.sv" \
+"../../../../Core/riscv_core.sv" \
+"../../../../Files/tb_miriscv_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
