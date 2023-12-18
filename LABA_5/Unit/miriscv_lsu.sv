@@ -147,7 +147,8 @@ logic [ 31 : 0 ] lsu_data_output;
     endcase
   end
 
-  always_comb begin                                   // mem_be_o
+  always_comb begin  
+    be <= 4'b0;                                 // mem_be_o
     if(lsu_req_i && lsu_we_i) begin
       case (lsu_size_i)
         LDST_W: be <= 4'b1111;

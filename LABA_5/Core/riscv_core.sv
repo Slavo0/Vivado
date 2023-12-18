@@ -10,7 +10,7 @@ input             clk_i,//
   //lsu
   input  [ 31 : 0 ] data_rdata_i,
   output [ 31 : 0 ] data_addr_o,//
-  output [  2 : 0 ] data_be_o,//
+  output [  3 : 0 ] data_be_o,//
   output            data_req_o,//
   output            data_we_o,//
   output [ 31 : 0 ] data_wdata_o//
